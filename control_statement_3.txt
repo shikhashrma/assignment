@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int amt,t,f,h;
+scanf("%d",&amt);
+h=amt/100;
+f=amt/50;
+t=amt/10;
+printf("%d currency notes of 10\n %d currency notes of 50\n %d currency notes of 10",t,f,h);
+return 0;
+}

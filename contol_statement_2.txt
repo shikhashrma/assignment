@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+int n,r,t,s=0,ne,num=0;
+printf("enter the number\n");
+scanf("%d",&n);
+while(n!=0)
+{
+r=n%10;
+if(r==9)
+{t=0;
+}
+else
+{t=r+1;
+}
+s=(s*10)+t;
+n=n/10;
+
+}
+while(s!=0)
+{
+ne=s%10;
+num=(num*10)+ne;
+s=s/10;
+}
+
+printf("%d", num);
+
+    return 0;
+}
+
